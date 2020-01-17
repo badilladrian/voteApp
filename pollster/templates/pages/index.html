@@ -1,0 +1,16 @@
+{% extends 'base.html' %} 
+{% block content %} 
+
+      <div class="card mb-3">
+        <div class="card-body">
+            <h1>Welcome to Pollster!</h1>
+            <p>This is a project for voting :)</p>
+
+            <a class="btn btn-dark" href="{% url 'polls:index' %}"> 
+                View Available Polls!
+            </a>
+
+        </div>
+      </div>
+
+{% endblock %}
